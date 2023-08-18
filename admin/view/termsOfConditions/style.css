@@ -1,0 +1,41 @@
+#cguBloc
+{
+	border: 2px solid grey;
+	border-radius: 25px ;
+	width: 70%;
+	min-width: 70%;
+	max-width: 70%;
+	box-shadow: 2px 3px 3px 2px grey;
+	height: 55rem;
+	min-height: 55rem;
+	max-height: 55rem;
+	margin: auto;
+}
+
+#mentionBloc
+{
+	border: 2px solid grey;
+	border-radius: 25px ;
+	width: 70%;
+	min-width: 70%;
+	max-width: 70%;
+	box-shadow: 2px 3px 3px 2px grey;
+	height: 55rem;
+	min-height: 55rem;
+	max-height: 55rem;
+	margin: auto;	
+}
+
+#rgpdBloc
+{
+	border: 2px solid grey;
+	border-radius: 25px ;
+	width: 70%;
+	min-width: 70%;
+	max-width: 70%;
+	box-shadow: 2px 3px 3px 2px grey;
+	height: 55rem;
+	min-height: 55rem;
+	max-height: 55rem;
+	margin: auto;	
+}

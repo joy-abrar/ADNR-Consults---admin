@@ -1,0 +1,203 @@
+#mainPage
+{
+	background: white;
+	display: flex;
+	flex-direction: row;
+
+}
+
+#connectionPart
+{
+	display: flex;
+	width: 30%;
+	max-width: 30%;
+	min-width: 30%;
+	height: 56rem;
+	min-height: 56rem;
+	max-height: 56rem;
+	background: ghostwhite;
+}
+
+
+#connectionLogoBloc
+{
+	position: absolute;
+	top: 25%;
+	left: 5%;
+}
+
+#connectionLogo
+{
+	display: flex;
+	justify-content: space-around;
+	padding: auto;
+
+	width: 25rem;
+	height: 10rem;
+}
+
+#formTitle
+{
+	display: flex;
+	flex-direction: row;
+
+}
+
+#borderLine
+{
+	font-family: segoe UI Light;
+	width: 30%;
+}
+
+#connectionMessage
+{
+	font-family: 'roboto condensed', sans-serif;
+	color: grey;
+}
+
+#connectionForm
+{
+	position: relative;
+	flex-direction: column;
+	/*border: 1px solid black;*/
+	top: 50%;
+	height: 40%;
+	max-height: 40%;
+	min-height: 40% ;
+	width: 85%;
+	max-width: 85%;
+	min-width: 85%;
+	left: 10%;
+}
+
+
+#textParam
+{
+	font-family: Segoe UI Light;
+}
+
+#inputEmailForm
+{
+	width: 85%;
+	min-width: 85%;
+	max-width: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: 0.2px solid #dddddd;
+	border-radius: 5px;
+}
+
+#inputPasswordForm
+{
+	width: 85%;
+	min-width: 85%;
+	max-width: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: 0.2px solid #dddddd;
+	/*--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color); */
+	border-radius: 5px;
+}
+
+#showOrHidePassword
+{
+	position: absolute;
+	right: 16%;
+	top: 50%;
+}
+
+#forgetPasswordLink
+{
+	font-family: Segoe UI Light ;
+	text-decoration: none;
+	position: absolute;
+	right: 15%;
+	background: linear-gradient(to right, #1e40af 0%, #06b6d4 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+#connexionButton
+{
+	position: absolute;
+	width: 85%;
+	min-width: 85%;
+	max-height: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: transparent;
+	border-radius: 5px;
+	left: 0%;
+	top: 75%;
+	color: white;
+	background: linear-gradient(to right, #2FF8B1, #100c3a);
+}
+
+
+
+
+#sidePart
+{
+	display: flex;
+	flex-direction: row;
+	background: url("images/background2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 70%;
+	max-width: 70%;
+	min-width: 70%;
+}
+
+#homeFeed
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border: 1px solid grey;
+	margin: auto;
+	width: 60%;
+	min-width: 60%;
+	max-width: 60%;
+	height: 60%;
+	min-height: 60%;
+	max-height: 60%;
+	border-radius: 10px;
+	background: white;
+}
+
+#terms
+{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 73%;
+	width: 50%;
+	min-width: 50%;
+	max-width: 50%;
+	margin: auto;
+	left: 47.8%;
+	text-align: center;
+}
+
+#conditionsLink 
+{
+	font-family: Segoe UI Light;
+	text-decoration: none;
+	padding-left: 0%;
+	padding-right: 23%;
+	background: linear-gradient(to right, #1e40af 0%, #06b6d4 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#verificationMessage
+{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	color: red;
+}

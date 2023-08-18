@@ -1,0 +1,1269 @@
+#mainPage
+{
+	background: white;
+	display: flex;
+	flex-direction: row;
+
+}
+
+#connectionPart
+{
+	display: flex;
+	width: 30%;
+	max-width: 30%;
+	min-width: 30%;
+	height: 56rem;
+	min-height: 56rem;
+	max-height: 56rem;
+	background: ghostwhite;
+}
+
+
+#connectionLogoBloc
+{
+	position: absolute;
+	top: 25vh;
+	left: 1vw;
+}
+
+#connectionLogo
+{
+	display: flex;
+	justify-content: space-around;
+	padding: auto;
+
+	width: 25vw;
+	height: auto;
+}
+
+#formTitle
+{
+	display: flex;
+	flex-direction: row;
+
+}
+
+#borderLine
+{
+	font-family: segoe UI Light;
+	width: 30%;
+	height: 0px;
+}
+
+#connectionMessage
+{
+	font-family: 'roboto condensed', sans-serif;
+	color: grey;
+}
+
+#connectionForm
+{
+	position: relative;
+	flex-direction: column;
+	/*border: 1px solid black;*/
+	top: 50%;
+	height: 40%;
+	max-height: 40%;
+	min-height: 40% ;
+	width: 85%;
+	max-width: 85%;
+	min-width: 85%;
+	left: 10%;
+}
+
+
+#textParam
+{
+	font-family: Segoe UI Light;
+}
+
+#inputEmailForm
+{
+	width: 85%;
+	min-width: 85%;
+	max-width: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: 0.2px solid #dddddd;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+#inputPasswordForm
+{
+	width: 85%;
+	min-width: 85%;
+	max-width: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: 0.2px solid #dddddd;
+	/*--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color); */
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+#showOrHidePassword
+{
+	position: absolute;
+	right: 16%;
+	top: 50%;
+}
+
+#forgetPasswordLink
+{
+	font-family: Segoe UI Light ;
+	text-decoration: none;
+	position: absolute;
+	right: 15%;
+	background: linear-gradient(to right, #1e40af 0%, #06b6d4 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#createAccountLink
+{
+	font-family: Segoe UI Light ;
+	text-decoration: none;
+	position: absolute;
+	right: 15%;
+	top: 100%;
+	background: linear-gradient(to right, #1e40af 0%, #06b6d4 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+#connexionButton
+{
+	position: absolute;
+	width: 85%;
+	min-width: 85%;
+	max-height: 85%;
+	height: 10%;
+	min-height: 10%;
+	max-height: 10%;
+	border: transparent;
+	border-radius: 5px;
+	left: 0%;
+	top: 75%;
+	color: white;
+	background: linear-gradient(to right, #2FF8B1, #100c3a);
+}
+
+
+
+
+#sidePart
+{
+	display: flex;
+	flex-direction: row;
+	background: url("images/background2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 70%;
+	max-width: 70%;
+	min-width: 70%;
+}
+
+#homeFeed
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border: 1px solid grey;
+	margin: auto;
+	width: 60%;
+	min-width: 60%;
+	max-width: 60%;
+	height: 60%;
+	min-height: 60%;
+	max-height: 60%;
+	border-radius: 10px;
+	background: white;
+}
+
+#terms
+{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	top: 47%;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	left: 0%;
+	text-align: center;
+}
+
+#conditionsLink 
+{
+	font-family: Segoe UI Light;
+	text-decoration: none;
+	padding-left: 0%;
+	padding-right: 0%;
+	min-width: 25%;
+	/*
+	background: linear-gradient(to right, #1e40af 0%, #06b6d4 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	*/
+}
+
+#conditionsLink:hover
+{
+	color: green;
+	transition-duration: 0.5s;
+}
+
+@media screen and (min-width: 1260px) and (max-width: 1280px) 
+{
+	#showOrHidePassword 
+	{
+		top: 54%;
+	}
+
+	#connectionLogo
+
+	{
+		width: 19rem;
+		height: 8rem;
+	}
+
+	#connectionPart 
+	{
+		min-height: 50rem;
+		max-height: 50rem;
+		height: 50rem;
+	}
+
+	#terms 
+	{
+		top: 40%;
+	}
+
+	#forgetPasswordLink 
+	{
+		top:  90%;
+	}
+
+}
+
+
+@media screen and (min-width: 1180px) and (max-width: 1200px) 
+{
+	#mainPage
+	{
+		height: 50rem;
+	}
+
+	#connectionPart
+	{
+		height: 50rem;
+    	min-height: 50rem;
+    	max-height: 50rem;
+	}
+
+	#connectionLogoBloc 
+	{
+		left: 3%;
+	}
+	
+	#connectionLogo
+	{
+		width: 19rem;
+	}
+
+	#forgetPasswordLink 
+	{
+		top: 90%;
+	}
+
+	#terms 
+	{
+		top:  40%;
+	}
+
+	#showOrHidePassword 
+	{
+		top: 54%;
+	}
+
+	#connexionButton 
+	{
+		top: 77%;
+	}
+
+}
+
+@media screen and (min-width: 1070px) and (max-width: 1080px) 
+{
+	#connectionPart 
+	{
+		height: 49rem;
+		min-height: 49rem;
+		max-height: 49rem;
+	}
+
+	#connectionLogoBloc 
+	{
+		left: 2%;
+	}
+
+	#connectionLogo
+	{
+		width: 19rem;
+	}
+	#showOrHidePassword
+	{
+		top: 55%;
+	}
+
+	#forgetPasswordLink 
+	{
+		top: 91%;
+	}
+
+	#terms 
+	{
+		top: 40%;
+	}
+
+	#connexionButton 
+	{
+		top: 79%;
+	}
+
+}
+
+
+
+@media screen and (min-width: 1020px) and (max-width: 1024px) 
+{
+	#connectionPart 
+	{
+		height: 37rem;
+		min-height: 37rem;
+		max-height: 37rem;
+	}
+
+	#connectionLogoBloc 
+	{
+		left: 2%;
+		top: 10%;
+	}
+
+	#connectionMessage
+	{
+		font-size: 14px;
+	}
+
+	#connectionLogo
+	{
+		width: 17.7rem;
+	}
+
+	#connectionForm
+	{
+		top: 41%;
+	}
+
+	#textParam
+	{
+		margin: 5px;
+	}
+
+	#showOrHidePassword
+	{
+		top: 40%;
+	}
+
+	#forgetPasswordLink 
+	{
+		top: 93%;
+	}
+
+	#terms 
+	{
+		top: 61%;
+	}
+
+	#connexionButton 
+	{
+		top: 72%;
+	}
+
+	#createAccountLink 
+	{
+		top: 105%;
+	}
+}
+
+@media screen and (min-width: 900px) and (max-width: 912px) 
+{
+#mainPage
+	{
+		flex-direction: column;
+	}
+
+	#connectionPart 
+	{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+
+		height: 57rem;
+		min-height: 57rem;
+		max-height: 57rem;
+
+	}
+
+	#connectionLogoBloc 
+	{
+		left: 21%;
+		top: 10%;
+	}
+
+	#connectionMessage
+	{
+		font-size: 23px;
+	}
+
+	#connectionLogo
+	{
+		width: 32.7rem;
+		height: 15rem;
+	}
+
+	#connectionForm
+	{
+		text-align: center;
+		top: 45%;
+	}
+
+	#textParam
+	{
+		margin: 5px;
+	}
+
+	#showOrHidePassword
+	{
+		top: 40%;
+		right: 10%;
+	}
+
+	#forgetPasswordLink 
+	{
+		top: 93%;
+		right: 33%;
+		font-size: 28px;
+	}
+
+	#terms 
+	{
+		top: 61%;
+		left: 8%;
+		font-size: 25px;
+	}
+
+	#connexionButton 
+	{
+		font-size: 25px;
+		top: 72%;
+		left: 7%;
+	}
+
+	#createAccountLink 
+	{
+		top: 105%;
+		right: 37%;
+		font-size: 28px;
+	}
+
+	#textParam
+	{
+		font-size: 28px;
+	}
+
+	#sidePart
+	{
+		height: 27rem;
+		min-height: 27rem;
+		max-height: 27rem;
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+	}
+}	
+
+
+@media screen and (min-width: 800px) and (max-width: 820px) 
+{
+#mainPage
+	{
+		flex-direction: column;
+	}
+
+	#connectionPart 
+	{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+
+		height: 57rem;
+		min-height: 57rem;
+		max-height: 57rem;
+
+	}
+
+	#connectionLogoBloc 
+	{
+		left: 19%;
+		top: 2%;
+	}
+
+	#connectionMessage
+	{
+		font-size: 23px;
+	}
+
+	#connectionLogo
+	{
+		width: 32.7rem;
+		height: 11rem;
+	}
+
+	#connectionForm
+	{
+		text-align: center;
+		top: 25%;
+	}
+
+	#textParam
+	{
+		margin: 5px;
+	}
+
+	#showOrHidePassword
+	{
+		top: 40%;
+		right: 10%;
+	}
+
+	#forgetPasswordLink 
+	{
+		top: 93%;
+		right: 33%;
+		font-size: 28px;
+	}
+
+	#terms 
+	{
+		top: 61%;
+	    left: 0%;
+	    font-size: 25px;
+	    padding: 0;
+	    width: 60%;
+	    min-width: 60%;
+	    max-width: 60%;
+	    justify-content: space-around;
+	    padding-left: 19%;
+	}
+
+	#connexionButton 
+	{
+		font-size: 25px;
+		top: 72%;
+		left: 7%;
+	}
+
+	#createAccountLink 
+	{
+		top: 105%;
+		right: 37%;
+		font-size: 28px;
+	}
+
+	#textParam
+	{
+		font-size: 28px;
+	}
+
+	#sidePart
+	{
+		height: 27rem;
+		min-height: 27rem;
+		max-height: 27rem;
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		margin-top: -182px;
+	}
+}	
+
+
+@media screen and (min-width: 760px) and (max-width: 768px) 
+{
+#mainPage
+	{
+		flex-direction: column;
+	}
+
+	#connectionPart 
+	{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+
+		height: 57rem;
+		min-height: 57rem;
+		max-height: 57rem;
+
+	}
+
+	#connectionLogoBloc 
+	{
+		left: 17%;
+		top: 10%;
+	}
+
+	#connectionMessage
+	{
+		font-size: 23px;
+	}
+
+	#connectionLogo
+	{
+		width: 32.7rem;
+		height: 15rem;
+	}
+
+	#connectionForm
+	{
+		text-align: center;
+		top: 45%;
+	}
+
+	#textParam
+	{
+		margin: 5px;
+	}
+
+	#showOrHidePassword
+	{
+		top: 40%;
+		right: 10%;
+	}
+
+	#forgetPasswordLink 
+	{
+		top: 93%;
+		right: 31%;
+		font-size: 28px;
+	}
+
+	#terms 
+	{
+		top: 61%;
+		left: 8%;
+		font-size: 25px;
+	}
+
+	#connexionButton 
+	{
+		font-size: 25px;
+		top: 72%;
+		left: 7%;
+	}
+
+	#createAccountLink 
+	{
+		top: 105%;
+		right: 35%;
+		font-size: 28px;
+	}
+
+	#textParam
+	{
+		font-size: 28px;
+	}
+
+	#sidePart
+	{
+		height: 27rem;
+		min-height: 27rem;
+		max-height: 27rem;
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+	}
+}	
+
+@media screen and (min-width: 500px) and (max-width: 540px) 
+{
+	#mainPage
+	{
+		flex-direction: column;
+	}
+
+	#connectionPart 
+	{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+
+		height: 37rem;
+		min-height: 37rem;
+		max-height: 37rem;
+
+	}
+
+	#connectionLogoBloc 
+	{
+		left: 20%;
+		top: 2%;
+	}
+
+	#connectionMessage
+	{
+		font-size: 14px;
+	}
+
+	#connectionLogo
+	{
+		width: 20.7rem;
+		height: 7rem;
+	}
+
+	#connectionForm
+	{
+		text-align: center;
+		top: 23%;
+	}
+
+	#textParam
+	{
+		margin: 5px;
+	}
+
+	#showOrHidePassword
+	{
+		top: 36%;
+		right: 10%;
+	}
+
+	#forgetPasswordLink 
+	{
+		top: 93%;
+		right: 35%;
+	}
+
+	#terms 
+	{
+		top: 61%;
+		left: 7%;
+	}
+
+	#connexionButton 
+	{
+		top: 72%;
+		left: 7%;
+	}
+
+	#createAccountLink 
+	{
+		top: 105%;
+		right: 39%;
+	}
+
+	#textParam
+	{
+		font-size: 12px;
+	}
+
+	#sidePart
+	{
+		height: 16rem;
+		min-height: 16rem;
+		max-height: 16rem;
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		margin-top: -9rem;
+	}
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 414px) 
+{
+
+	#mainPage
+	{
+		flex-direction: column;
+	}
+
+	#connectionPart 
+	{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+
+		height: 37rem;
+		min-height: 37rem;
+		max-height: 37rem;
+
+	}
+
+	#connectionLogoBloc 
+	{
+		left: 11%;
+		top: 5%;
+	}
+
+	#connectionMessage
+	{
+		font-size: 14px;
+	}
+
+	#connectionLogo
+	{
+		width: 20.7rem;
+		height: 7rem;
+	}
+
+	#connectionForm
+	{
+		text-align: center;
+		top: 35%;
+	}
+
+	#textParam
+	{
+		margin: 5px;
+	}
+
+	#showOrHidePassword
+	{
+		top: 36%;
+		right: 10%;
+	}
+
+	#forgetPasswordLink 
+	{
+		top: 93%;
+	}
+
+	#terms 
+	{
+		top: 61%;
+	}
+
+	#connexionButton 
+	{
+		top: 72%;
+		left: 7%;
+	}
+
+	#createAccountLink 
+	{
+		top: 105%;
+	}
+
+	#textParam
+	{
+		font-size: 12px;
+	}
+
+	#sidePart
+	{
+		height: 19rem;
+		min-height: 19rem;
+		max-height: 19rem;
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		margin-top: -1rem;
+	}
+}
+
+
+@media screen and (min-width: 390px) and (max-width: 393px) 
+{
+
+	#mainPage
+	{
+		flex-direction: column;
+	}
+
+	#connectionPart 
+	{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+
+		height: 37rem;
+		min-height: 37rem;
+		max-height: 37rem;
+
+	}
+
+	#connectionLogoBloc 
+	{
+		left: 14%;
+		top: 10%;
+	}
+
+	#connectionMessage
+	{
+		font-size: 14px;
+	}
+
+	#connectionLogo
+	{
+		width: 17.7rem;
+		height: 6rem;
+	}
+
+	#connectionForm
+	{
+		text-align: center;
+		top: 39%;
+	}
+
+	#textParam
+	{
+		margin: 5px;
+	}
+
+	#showOrHidePassword
+	{
+		top: 36%;
+		right: 10%;
+	}
+
+	#forgetPasswordLink 
+	{
+		top: 93%;
+		right: 28%;
+	}
+
+	#terms 
+	{
+		top: 61%;
+	}
+
+	#connexionButton 
+	{
+		top: 72%;
+		left: 7%;
+	}
+
+	#createAccountLink 
+	{
+		top: 105%;
+		right: 33%;
+	}
+
+	#textParam
+	{
+		font-size: 12px;
+	}
+
+	#sidePart
+	{
+		height: 16rem;
+		min-height: 16rem;
+		max-height: 16rem;
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media screen and (min-width: 370px) and (max-width: 375px) 
+{
+
+	#mainPage
+	{
+		flex-direction: column;
+	}
+
+	#connectionPart 
+	{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+
+		height: 37rem;
+		min-height: 37rem;
+		max-height: 37rem;
+
+	}
+
+	#connectionLogoBloc 
+	{
+		left: 13%;
+		top: 2%;
+	}
+
+	#connectionMessage
+	{
+		font-size: 14px;
+	}
+
+	#connectionLogo
+	{
+		width: 17.7rem;
+		height: 6rem;
+	}
+
+	#connectionForm
+	{
+		text-align: center;
+		top: 20%;
+	}
+
+	#textParam
+	{
+		margin: 5px;
+	}
+
+	#showOrHidePassword
+	{
+		top: 36%;
+		right: 10%;
+	}
+
+	#forgetPasswordLink 
+	{
+		top: 93%;
+		right: 28%;
+	}
+
+	#terms 
+	{
+		top: 61%;
+	}
+
+	#connexionButton 
+	{
+		top: 72%;
+		left: 7%;
+	}
+
+	#createAccountLink 
+	{
+		top: 105%;
+		right: 33%;
+	}
+
+	#textParam
+	{
+		font-size: 12px;
+	}
+
+	#sidePart
+	{
+		height: 13.7rem;
+		min-height: 13.7rem;
+		max-height: 13.7rem;
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		margin-top: -10rem;
+	}
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 360px) 
+{
+
+	#mainPage
+	{
+		flex-direction: column;
+	}
+
+	#connectionPart 
+	{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+
+		height: 36rem;
+		min-height: 36rem;
+		max-height: 36rem;
+
+	}
+
+	#connectionLogoBloc 
+	{
+		left: 11%;
+		top: 4%;
+	}
+
+	#connectionMessage
+	{
+		font-size: 14px;
+	}
+
+	#connectionLogo
+	{
+		width: 17.7rem;
+		height: 6rem;
+	}
+
+	#connectionForm
+	{
+		text-align: center;
+		top: 24%;
+	}
+
+	#textParam
+	{
+		margin: 5px;
+	}
+
+	#showOrHidePassword
+	{
+		top: 36%;
+		right: 10%;
+	}
+
+	#forgetPasswordLink 
+	{
+		top: 93%;
+		right: 24%;
+	}
+
+	#terms 
+	{
+		top: 61%;
+	}
+
+	#connexionButton 
+	{
+		top: 72%;
+		left: 7%;
+	}
+
+	#createAccountLink 
+	{
+		top: 105%;
+		right: 29%;
+	}
+
+	#textParam
+	{
+		font-size: 12px;
+	}
+
+	#sidePart
+	{
+		height: 17rem;
+		min-height: 17rem;
+		max-height: 17rem;
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		margin-top: -124px;
+	}
+}
+
+
+
+@media screen and (min-width: 260px) and (max-width: 280px) 
+{
+
+	#mainPage
+	{
+		flex-direction: column;
+	}
+
+	#connectionPart 
+	{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+
+		height: 37rem;
+		min-height: 37rem;
+		max-height: 37rem;
+
+	}
+
+	#connectionLogoBloc 
+	{
+		left: 11%;
+		top: 3%;
+	}
+
+	#connectionMessage
+	{
+		font-size: 11px;
+	}
+
+	#connectionLogo
+	{
+		width: 13.7rem;
+		height: 5rem;
+	}
+
+	#connectionForm
+	{
+		text-align: center;
+		top: 19%;
+	}
+
+	#textParam
+	{
+		margin: 5px;
+	}
+
+	#showOrHidePassword
+	{
+		top: 36%;
+		right: 10%;
+	}
+
+	#forgetPasswordLink 
+	{
+		top: 93%;
+		right: 23%;
+	}
+
+	#terms 
+	{
+		top: 61%;
+		font-size: 13px;
+		flex-direction: column;
+	}
+
+	#connexionButton 
+	{
+		top: 72%;
+		left: 7%;
+	}
+
+	#createAccountLink 
+	{
+		top: 105%;
+		right: 30%;
+	}
+
+	#textParam
+	{
+		font-size: 12px;
+	}
+
+	#sidePart
+	{
+		height: 11rem;
+		min-height: 11rem;
+		max-height: 11rem;
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		margin-top: -8.3rem;
+	}
+}

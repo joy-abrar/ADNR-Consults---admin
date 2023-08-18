@@ -1,0 +1,9 @@
+#accountCreatedMessage
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-width: 50%;
+	overflow:  wrap;
+	
+}
